@@ -127,7 +127,7 @@ s_vals_12 = np.linspace(s1, s2, 50)
 t_vals_12 = np.linspace(T1, T2, 50)
 
 s_vals_23 = np.linspace(s2, s3, 50)
-t_vals_23 = T2 * np.exp((s_vals_23 - s2) / cp)  .  # Constant pressure line approximation
+t_vals_23 = T2 * np.exp((s_vals_23 - s2) / cp)  # Constant pressure line approximation
 
 s_vals_34 = np.linspace(s3, s4, 50)
 t_vals_34 = np.linspace(T3, T4, 50)
