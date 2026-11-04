@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # MESTI JADI ARAHAN PERTAMA STREAMLIT
 st.set_page_config(
     page_title="Ideal Brayton Cycle Simulator", 
-    page_layout="wide"
+    layout="wide"
 )
 
 # Seterusnya barulah tajuk dan lain-lain
