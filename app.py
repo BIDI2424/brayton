@@ -1,12 +1,14 @@
+import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
-import streamlit as st
 
-# Streamlit Page Configuration
+# MESTI JADI ARAHAN PERTAMA STREAMLIT
 st.set_page_config(
-    page_title="Ideal Brayton Cycle Simulator", page_layout="wide"
+    page_title="Ideal Brayton Cycle Simulator", 
+    page_layout="wide"
 )
 
+# Seterusnya barulah tajuk dan lain-lain
 st.title("🔥 Ideal Brayton Cycle Interactive Simulator (KJM442)")
 st.markdown(
     "Adjust the parameters below to observe real-time changes in performance metrics, thermal efficiency, back work ratio, and the $P-V$ and $T-s$ diagrams."
